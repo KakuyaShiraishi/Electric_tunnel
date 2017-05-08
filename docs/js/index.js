@@ -6,7 +6,7 @@ function deg2rad(_degrees) {
 var mouseX = 0, mouseY = 0;
 var scene = new THREE.Scene();
 var camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000);
-var innerColor = 0x2222ff; 
+var innerColor = 0xffffff; 
 var cubecam = new THREE.CubeCamera(0.1, 120, 256);
 cubecam.renderTarget.minFilter = THREE.LinearMipMapLinearFilter; // mipmap filter
 
