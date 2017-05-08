@@ -27,7 +27,7 @@ var group = new THREE.Group();
 scene.add(group);
 
 // Lights
-var light = new THREE.AmbientLight( 0x404040 ); // soft white light
+var light = new THREE.AmbientLight( 0xffffff ); // soft white light
 scene.add( light );
 
 var directionalLight = new THREE.DirectionalLight( 0xffffff, 1 );
